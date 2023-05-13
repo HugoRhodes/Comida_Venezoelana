@@ -1,0 +1,221 @@
+/*Geral*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration-color: #333333
+}
+/* Estilos do fundo animado */
+.gradient-animation {
+    background: linear-gradient(to bottom right, rgba(255, 174, 0, 0.315) 0%, rgb(100, 68, 9) 50%, rgba(145, 61, 6, 0.753) 50%, rgb(94, 40, 9) 100%);
+    background-size: 400% 400%;
+    animation:alternate 5s ease infinite;
+    overflow: hidden; 
+  }
+  .borda-botoes{
+    position: relative;
+    border: 1px solid transparent;
+  }
+  .borda-botoes:hover{
+    border: #333333 1px solid;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgba(255, 174, 0, 0.315) 0%, rgb(100, 68, 9) 50%, rgba(145, 61, 6, 0.753) 50%, rgb(94, 40, 9) 100%);
+    background-size: 400% 400%;
+    animation:alternate 5s ease infinite;
+    overflow: hidden; 
+  }
+
+/* Logo e Ancora sobre a empresa */
+.logo-sobre-nos-nav{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*LogoTipo*/
+.logo{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    max-width: 200px;
+}
+
+/*IMG's - Caroucel*/
+.max-height{
+  padding-bottom: 50px;
+}
+h3{
+  padding-top: 50px;
+}
+
+.carousel-item img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.teste-tamanho-caroucel{   
+    border: 2px solid wheat;     
+    max-height: 45vh;
+    max-width: 60%;
+
+
+}
+.carousel-inner{
+    display: flex;
+    max-height: 70%;
+    
+} 
+
+/* Botões de adiantar e voltar */
+.carousel-control-prev{
+    color: black;
+}
+
+/*Mais vendidos*/
+.card-fundo{
+    background: linear-gradient(to bottom right, rgba(255, 174, 0, 0.315) 0%, rgb(100, 68, 9) 50%, rgba(145, 61, 6, 0.753) 50%, rgb(94, 40, 9) 100%);
+    background-size: 400% 400%;
+    animation:alternate 5s ease infinite;
+    overflow: hidden; 
+
+
+}
+
+/*Sobre a Empresa*/
+.fundo-azul-mudar{
+    color: #333333;
+    background: linear-gradient(to bottom right, rgba(255, 174, 0, 0.315) 0%, rgb(100, 68, 9) 50%, rgba(145, 61, 6, 0.753) 50%, rgb(94, 40, 9) 100%);
+    background-size: 400% 400%;
+    animation:alternate 5s ease infinite;
+    overflow: hidden; 
+
+}
+
+/*Botão enviar e link que volta para o topo*/
+.botões-enviar-e-voltar-toto{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fundo-botoes{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(to bottom right, rgba(255, 174, 0, 0.315) 0%, rgb(100, 68, 9) 50%, rgba(145, 61, 6, 0.753) 50%, rgb(94, 40, 9) 100%);
+    background-size: 400% 400%;
+    animation:alternate 5s ease infinite;
+    overflow: hidden;
+}
+
+/* CSS para o layout geral */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* CSS para o header */
+  
+  header {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    color: #ccc;
+  }
+  
+  /* CSS para a seção de cards */
+  
+  .cards {
+    padding: 50px 0;
+  }
+  
+  .cards h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-2 {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #343a40;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #343a40;
+  }
+  
+  /* CSS para o footer */
+  
+  footer {
+    background: linear-gradient(to bottom right, rgba(255, 174, 0, 0.315) 0%, rgb(100, 68, 9) 50%, rgba(145, 61, 6, 0.753) 50%, rgb(94, 40, 9) 100%);
+    background-size: 400% 400%;
+    animation:alternate 5s ease infinite;
+    overflow: hidden; 
+    padding: 30px 0;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
